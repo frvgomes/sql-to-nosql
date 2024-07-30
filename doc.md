@@ -1,8 +1,11 @@
-# Sql x NoSql
+# <center> Sql to NoSql </center>
 
-### Criar uma tabela ###
-###### *`create table | primary | tag3 |`*
----
+<div style="display: flex; align-items: center;">
+  <span style="font-size: 20px; margin-right: 10px;">Criar uma Tabela</span>
+  <span style="font-size: 0.6em; color: #007BFF; padding: 2px 5px; border-radius: 3px;">create table</span>
+  <span style="font-size: 0.6em; color: #007BFF; padding: 2px 5px; border-radius: 3px;">primary</span>
+</div>
+
 *SQL*
 ~~~sql
 create table 
@@ -19,12 +22,13 @@ create table
 ???
 ~~~
 ---
-> ### Inserir um único registro ### 
-[!TIP]
-Helpful
-###### `insert | into | values | insertOne |`
-
-nota[^1],
+<div style="display: flex; align-items: center;">
+  <span style="font-size: 20px; margin-right: 10px;">Inserir um único registro</span>
+  <span style="font-size: 0.6em; color: #007BFF; padding: 2px 5px; border-radius: 3px;">insert</span>
+  <span style="font-size: 0.6em; color: #007BFF; padding: 2px 5px; border-radius: 3px;">into</span>
+  <span style="font-size: 0.6em; color: #007BFF; padding: 2px 5px; border-radius: 3px;">values</span>
+  <span style="font-size: 0.6em; color: #007BFF; padding: 2px 5px; border-radius: 3px;">insertOne</span>
+</div>
 
 *SQL*
 ~~~sql
@@ -35,9 +39,14 @@ insert into people(user_id, age, status) values('abc123',55,'A')
 db.people.insertOne({uer_id:'abc123', age:25, status: 'A'})
 ~~~
 ---
-### Inserir múltiplos registros ### 
-###### `insert into | values | insertMany |`
----
+<div style="display: flex; align-items: center;">
+  <span style="font-size: 20px; margin-right: 10px;">Inserir múltiplos registros</span>
+  <span style="font-size: 0.6em; color: #007BFF; padding: 2px 5px; border-radius: 3px;">insert</span>
+  <span style="font-size: 0.6em; color: #007BFF; padding: 2px 5px; border-radius: 3px;">into</span>
+  <span style="font-size: 0.6em; color: #007BFF; padding: 2px 5px; border-radius: 3px;">values</span>
+  <span style="font-size: 0.6em; color: #007BFF; padding: 2px 5px; border-radius: 3px;">insertMany</span>
+</div>
+
 *SQL*
 ~~~sql
 insert into people(user_id, age, status) values('bcd234',13,'B');
