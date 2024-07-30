@@ -20,8 +20,8 @@ create table
 ~~~
 ---
 > ### Inserir um único registro ### 
-> [!TIP]
-> Helpful
+[!TIP]
+Helpful
 ###### `insert | into | values | insertOne |`
 
 nota[^1],
