@@ -1,0 +1,39 @@
+Uma ótima opção para criar um arquivo de consulta de comandos SQL com recursos de busca e localização hoje em dia é utilizar um formato de documento que suporte hiperlinks, formatação de texto e pesquisa integrada. Aqui estão algumas sugestões:
+
+### Formato de Documento Recomendado
+Um formato muito utilizado para este tipo de documentação é o **Markdown**. Markdown é simples de escrever e pode ser convertido para diversos formatos, incluindo HTML para visualização no navegador e PDF para impressão. Ele também suporta formatação básica de texto, links e pode ser facilmente integrado com ferramentas de pesquisa.
+
+### Ferramentas Gratuitas Recomendadas
+1. **Typora** (https://typora.io/)
+
+   - Um editor de Markdown com pré-visualização em tempo real e exportação para HTML e PDF. Permite organização por seções e é intuitivo para uso.
+
+2. **VS Code com Extensões**
+   - Utilizando o Visual Studio Code com extensões como "Markdown All in One" e "Markdown Preview Enhanced", você pode escrever seu documento Markdown diretamente e pré-visualizar instantaneamente.
+
+3. **Pandoc** (https://pandoc.org/)
+   - Uma ferramenta de linha de comando para conversão entre formatos de arquivo, incluindo Markdown para HTML, PDF, etc. Útil se você precisar automatizar a geração de diferentes formatos.
+
+4. **GitBook** (https://www.gitbook.com/)
+   - Uma plataforma para documentação que permite escrever em Markdown e publicar diretamente como um site. É ótimo se você deseja ter uma versão online da sua documentação.
+
+### Estrutura do Documento
+Para criar um arquivo de consulta de comandos SQL eficaz, você pode organizar o documento da seguinte forma:
+
+- **Índice ou Sumário**: Liste todos os comandos SQL principais que serão abordados, organizados por categoria (DDL, DML, DQL, etc.).
+  
+- **Seções para cada comando**: Cada comando deve ter sua própria seção, com uma explicação sucinta do que faz e exemplos de uso.
+
+- **Exemplos e Notas**: Inclua exemplos práticos de uso dos comandos SQL, juntamente com notas sobre boas práticas, dicas de otimização, etc.
+
+### Funcionalidades de Busca e Localização
+- **Pesquisa Integrada**: Utilize as funcionalidades de busca dos navegadores modernos (como Ctrl + F) para pesquisa instantânea dentro do documento HTML exportado.
+  
+- **Índice Navegável**: Se possível, adicione um índice navegável no início do documento HTML para navegação rápida entre seções.
+
+- **Links Internos**: Utilize hiperlinks internos no seu documento Markdown para facilitar a navegação entre seções e comandos relacionados.
+
+### Exportação e Distribuição
+Depois de criar seu documento Markdown e converter para HTML (usando Pandoc, por exemplo), você pode distribuí-lo como um arquivo HTML simples, que pode ser aberto em qualquer navegador moderno. Esse formato permite uma fácil visualização e pesquisa, proporcionando uma experiência semelhante aos antigos arquivos CHM do Windows, mas de forma mais moderna e versátil.
+
+Espero que estas sugestões e ferramentas sejam úteis para você criar seu arquivo de consulta de comandos SQL!
